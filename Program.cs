@@ -4,7 +4,7 @@ double altura;
 Console.Write("Digite sua altura em m..........:");
 altura = Convert.ToDouble(Console.ReadLine());
 Console.Write("Sexo [M]asculino / [F]eminino...:");
-Sexo = Console.ReadLine().ToUpper()!;
+Sexo = Console.ReadLine()!.ToUpper()!;
 if (Sexo == "M")
 {
     double PesoIdeal;
